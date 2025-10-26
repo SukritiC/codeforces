@@ -49,3 +49,35 @@ class Solution:
                 dp[i][j] = up + left
 
         return dp[n - 1][m - 1]
+
+# Space Optimization
+class Solution:
+
+    def uniquePathsWithObstacles(self, matrix):
+        n, m = len(matrix), len(matrix[0])
+
+        prev_row = [0] * n
+        curr_row = [0] * n
+        for i in range(n):
+            for j in range(m):
+
+                if matrix[i][j] == 1:
+                    curr_row[j] = 0
+                    continue
+
+                if i == 0 and j == 0:
+                    curr_row[j] = 1
+                    continue
+
+                up = 0
+                left = 0
+
+                if i > 0:
+                    up = prev_row[j]
+                if j > 0:
+                    left = curr_row[j - 1]
+
+                curr_row[j] = up + left
+            prev_row = curr_row[:]
+
+        return prev_row[n - 1]
