@@ -24,3 +24,23 @@ class Solution:
         dp = [[-1 for _ in range(W + 1)] for _ in range(n)]
         return self.func(n - 1, wt, val, n, W, dp)
 
+# Tabulation
+
+class Solution:
+
+    def knapsack01(self, wt, val, n, W):
+        dp = [[0 for _ in range(W + 1)] for _ in range(n)]
+
+        for i in range(wt[0], W + 1):
+            dp[0][i] = val[0]
+
+        for i in range(1, n):
+            for j in range(W + 1):
+                not_pick = dp[i - 1][j]
+                pick = float('-inf')
+                if wt[i] <= j:
+                    pick = val[i] + dp[i - 1][j - wt[i]]
+
+                dp[i][j] = max(not_pick, pick)
+
+        return dp[n - 1][W]
