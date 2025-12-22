@@ -11,50 +11,89 @@ The repository is organized by topic to make it easy to find problems related to
 ```
 codeforces/
 ├── DP/
-│   └── 1D/
-│       ├── Frog Jump.py
-│       └── climbing_stairs.py
-│    
+│   ├── 1D/
+│   │   ├── tabulation-method/
+│   │   │   ├── circular_house-robber.py
+│   │   │   ├── climbing-stairs.py
+│   │   │   ├── frog-jump-with-k-distance.py
+│   │   │   ├── frog_jump.py
+│   │   │   └── max-sum-non-adj-element.py
+│   │   ├── Frog Jump.py
+│   │   ├── Frog jump with k distance.py
+│   │   ├── best-time-to-but-and-sell-stocks-ii.py
+│   │   ├── best-time-to-buy-and-sell-stocks-iii.py
+│   │   ├── best-time-to-buy-and-sell-stocks-iv.py
+│   │   ├── best-time-to-buy-and-sell-stocks.py
+│   │   ├── climbing_stairs.py
+│   │   ├── house_robber.py
+│   │   └── max_sum_non_adj_element.py
+│   ├── 2D/
+│   │   ├── cherry-picking-ii.py
+│   │   ├── grid-unique-path.py
+│   │   ├── maximum-falling-pat.py
+│   │   ├── triange-min-falling-path.py
+│   │   └── unique_path_ii.py
+│   └── subsequences/
+│       ├── 0-and-1-knapsack.py
+│       ├── Subset-sum-equals-to-target.py
+│       ├── count-subset-with-sum-k.py
+│       ├── minimum-coins.py
+│       ├── partition-equal-subset-sum.py
+│       ├── partition-set-into-two-subset-with-min-abs-diff.py
+│       └── unbounded-knapsack.py
 ├── Recursion/
-│   └── combination_sum.py
-│   └── combination_sum_II.py
-│   └── combination_sum_III.py
-│   └── count_all_subsequence_with_sum_k.py
-│   └── letter_combination_of_a_phone.py
-│   └── palindrome_partitioning.py
-│   └── power_Set.py
-│   └── power_with_binary_expoentiation.py
-│   └── print_all_balanced_parenthesis.py
-│   └── subsequence_with_sum_k.py
-│   └── subset_i.py
-│   └── subset_ii.py
-│   └── word_search.py 
-│
-├── (Other topic folders...)/
-│
+│   ├── combination_sum.py
+│   ├── combination_sum_II.py
+│   ├── combination_sum_iii.py
+│   ├── count_all_subsequence_with_sum_k.py
+│   ├── letter_combination_of_a_phone.py
+│   ├── palindrome_partitioning.py
+│   ├── power_set.py
+│   ├── power_with_binary_exponentiation.py
+│   ├── print_all_balanced_parenthesis.py
+│   ├── subsequence_with_sum_k.py
+│   ├── subset_1.py
+│   ├── subset_ii.py
+│   └── word_search.py
+├── graph/
+│   ├── bfs.py
+│   ├── connected_components.py
+│   ├── count_provinces.py
+│   ├── course_schedule.py
+│   ├── cycle_un_directed_graph.py
+│   ├── detect_cycle_in_directed_graph.py
+│   ├── dfs.py
+│   ├── flood-filled.py
+│   ├── number-of-enclaves.py
+│   ├── number-of-islands.py
+│   ├── rotten-oranges.py
+│   └── topological_sort.py
+├── greedy/
+│   ├── assign-cookie.py
+│   ├── job_sequencing.py
+│   ├── lemonade_change.py
+│   ├── n_meeting_in_one_room.py
+│   └── smallest_job_first.py
+├── Team.py
+├── card_point_sliding_window.py
+├── convert_array_to_max_heap.py
 ├── domino-piling.py
-├── down_with_bracket.py
+├── down_with_brackets.py
 ├── helpful_math.py
+├── interval-merge.py
 ├── left_and_down.py
-├── network_configuration.py
+├── max_heap.py
+├── max_heap_heapify.py
+├── min_heap_heapify.py
+├── network-configuration.py
 ├── next_round.py
 ├── petaya-and-strings.py
-├── ...
-│
-└── README.md
+├── prefix_min_and_suffix_max.py
+├── reorganize_string.py
+├── watermelon.py
+├── way_too_long_word.py
+└── word-capitalization.py
 ```
-
-## ✅ Solved Problems
-
-Below is a list of the problems I have solved and included in this repository.
-
-| Problem Title     | Topic / Category         | Path to Solution                                                              |
-| ----------------- | ------------------------ | ----------------------------------------------------------------------------- |
-| Climbing Stairs   | Dynamic Programming (1D) | [`climbing_stairs.py`](./DP/1D/climbing_stairs.py)                            |
-| Combination Sum   | Recursion / Backtracking | `combination_sum.py`                        |
-| Frog Jump         | Dynamic Programming (1D) | `Frog Jump.py`                                      |
-
-> _This table will be updated as more solutions are added._
 
 ## 🚀 Getting Started
 
