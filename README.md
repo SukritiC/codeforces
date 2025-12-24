@@ -41,6 +41,38 @@ codeforces/
 │       ├── partition-equal-subset-sum.py
 │       ├── partition-set-into-two-subset-with-min-abs-diff.py
 │       └── unbounded-knapsack.py
+├── Graph/
+│   ├── Shortest-Path-Algo/
+│   │   └── dijkstra_algo.py
+│   ├── bfs.py
+│   ├── connected_components.py
+│   ├── count_provinces.py
+│   ├── course_schedule.py
+│   ├── cycle_un_directed_graph.py
+│   ├── detect_cycle_in_directed_graph.py
+│   ├── dfs.py
+│   ├── flood-filled.py
+│   ├── number-of-enclaves.py
+│   ├── number-of-islands.py
+│   ├── rotten-oranges.py
+│   └── topological_sort.py
+├── Greedy/
+│   ├── Hard/
+│   │   ├── candy.py
+│   │   └── valid_parenthesis_checker.py
+│   ├── assign-cookie.py
+│   ├── insert_interval.py
+│   ├── job_sequencing.py
+│   ├── lemonade_change.py
+│   ├── min_no_of_platform_required.py
+│   ├── n_meeting_in_one_room.py
+│   ├── non-overlapping-intervals.py
+│   └── smallest_job_first.py
+├── Heaps/
+│   ├── max_heap.py
+│   ├── max_heap_heapify.py
+│   ├── min_heap_heapify.py
+│   └── reorganize_string.py
 ├── Recursion/
 │   ├── combination_sum.py
 │   ├── combination_sum_II.py
@@ -55,25 +87,6 @@ codeforces/
 │   ├── subset_1.py
 │   ├── subset_ii.py
 │   └── word_search.py
-├── graph/
-│   ├── bfs.py
-│   ├── connected_components.py
-│   ├── count_provinces.py
-│   ├── course_schedule.py
-│   ├── cycle_un_directed_graph.py
-│   ├── detect_cycle_in_directed_graph.py
-│   ├── dfs.py
-│   ├── flood-filled.py
-│   ├── number-of-enclaves.py
-│   ├── number-of-islands.py
-│   ├── rotten-oranges.py
-│   └── topological_sort.py
-├── greedy/
-│   ├── assign-cookie.py
-│   ├── job_sequencing.py
-│   ├── lemonade_change.py
-│   ├── n_meeting_in_one_room.py
-│   └── smallest_job_first.py
 ├── Team.py
 ├── card_point_sliding_window.py
 ├── convert_array_to_max_heap.py
@@ -82,14 +95,10 @@ codeforces/
 ├── helpful_math.py
 ├── interval-merge.py
 ├── left_and_down.py
-├── max_heap.py
-├── max_heap_heapify.py
-├── min_heap_heapify.py
 ├── network-configuration.py
 ├── next_round.py
 ├── petaya-and-strings.py
 ├── prefix_min_and_suffix_max.py
-├── reorganize_string.py
 ├── watermelon.py
 ├── way_too_long_word.py
 └── word-capitalization.py
