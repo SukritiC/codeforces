@@ -18,5 +18,11 @@ class Solution:
                     heapq.heappush(pq, (dist[adjNode], adjNode))
         return dist
 
+if __name__ == '__main__':
+    V = 4
+    adj = [[[1, 1], [3, 2]],[[0, 1], [2, 4]],[[1, 4], [3, 3]], [[0, 2], [2, 3]]]
+    S = 0
+    soln = Solution()
+    print(soln.dijkstra(V, adj, S))
 
 
