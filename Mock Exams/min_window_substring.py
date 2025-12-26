@@ -42,7 +42,7 @@ class Solution:
                 if r - l + 1 < minlen:
                     minlen = r - l + 1
                     sIndex = l
-
+                # Once the min length is updated, we're trying to shrink the  window if possible
                 hash[ord(s[l])] += 1
                 if hash[ord(s[l])] > 0:
                     count -= 1
