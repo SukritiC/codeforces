@@ -20,38 +20,6 @@ Scenario:
     Efficiency is critical. Latency must be minimal.
 '''
 
-# BruteForce
-if __name__ == "__main__":
-    str1 = "ADOBECODEBANC"
-    threat = "ABC"
-    n = len(str1)
-    th = []
-    for element in threat:
-        th.append(element)
-
-    start_i = 0
-    end_i = 0
-    substr = ""
-    len1 = int(1e9)
-    for i in range(n):
-
-        if str1[i] in th:
-            th.remove(str1[i])
-            print(th, "      ", i, "   ", len(th))
-            if len(th) == 0:
-                end_i = i
-                print(end_i, "     ", start_i)
-                if len1 > end_i - start_i + 1:
-                    len1 = end_i - start_i + 1
-                    substr = str1[start_i:end_i + 1]
-                for element in threat:
-                    th.append(element)
-
-            elif len(th) == len(threat) - 1:
-                start_i = i
-
-    print(substr)
-
 # Better Approach - Sliding Window
 
 class Solution:
@@ -70,7 +38,7 @@ class Solution:
                 count += 1
             hash[ord(s[r])] -= 1
             print("1", count,"   ",r,l,"  ",minlen)
-            while count == len(t): # this is suppose to execute when the
+            while count == len(t): # this is suppose to execute when all n characters if t are found
                 if r - l + 1 < minlen:
                     minlen = r - l + 1
                     sIndex = l
