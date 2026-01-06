@@ -12,12 +12,6 @@ The repository is organized by topic to make it easy to find problems related to
 codeforces/
 ├── DP/
 │   ├── 1D/
-│   │   ├── tabulation-method/
-│   │   │   ├── circular_house-robber.py
-│   │   │   ├── climbing-stairs.py
-│   │   │   ├── frog-jump-with-k-distance.py
-│   │   │   ├── frog_jump.py
-│   │   │   └── max-sum-non-adj-element.py
 │   │   ├── Frog Jump.py
 │   │   ├── Frog jump with k distance.py
 │   │   ├── best-time-to-but-and-sell-stocks-ii.py
@@ -26,7 +20,13 @@ codeforces/
 │   │   ├── best-time-to-buy-and-sell-stocks.py
 │   │   ├── climbing_stairs.py
 │   │   ├── house_robber.py
-│   │   └── max_sum_non_adj_element.py
+│   │   ├── max_sum_non_adj_element.py
+│   │   └── tabulation-method/
+│   │       ├── circular_house-robber.py
+│   │       ├── climbing-stairs.py
+│   │       ├── frog-jump-with-k-distance.py
+│   │       ├── frog_jump.py
+│   │       └── max-sum-non-adj-element.py
 │   ├── 2D/
 │   │   ├── cherry-picking-ii.py
 │   │   ├── grid-unique-path.py
@@ -43,7 +43,10 @@ codeforces/
 │       └── unbounded-knapsack.py
 ├── Graph/
 │   ├── Shortest-Path-Algo/
-│   │   └── dijkstra_algo.py
+│   │   ├── Cheapest_flight_with_k_stops.py
+│   │   ├── dijkstra_algo.py
+│   │   ├── path-wth-minimum-effort.py
+│   │   └── print_shortest_path.py
 │   ├── bfs.py
 │   ├── connected_components.py
 │   ├── count_provinces.py
@@ -73,6 +76,10 @@ codeforces/
 │   ├── max_heap_heapify.py
 │   ├── min_heap_heapify.py
 │   └── reorganize_string.py
+├── Mock Exams/
+│   ├── Amazon/
+│   │   └── lexicographical_sum.py
+│   └── min_window_substring.py
 ├── Recursion/
 │   ├── combination_sum.py
 │   ├── combination_sum_II.py
@@ -99,6 +106,8 @@ codeforces/
 ├── next_round.py
 ├── petaya-and-strings.py
 ├── prefix_min_and_suffix_max.py
+├── sliding-window/
+│   └── longest-repeating-character-replacement.py
 ├── watermelon.py
 ├── way_too_long_word.py
 └── word-capitalization.py
