@@ -10,6 +10,18 @@ The repository is organized by topic to make it easy to find problems related to
 
 ```
 codeforces/
+├── Binary Search/
+│   ├── capacity-to-ship-package-within-ddays.py
+│   ├── find-n-root-of-a-number.py
+│   ├── find-square-root-of-a-number.py
+│   ├── findout how many times the array is rotated.py
+│   ├── hard/
+│   │   ├── aggresive_cows.py
+│   │   └── book_allocation_problem.py
+│   ├── koko-eating-banana.py
+│   ├── minimum in the rotated sorted array.py
+│   ├── search-in-rotated-sorted-array-1.py
+│   └── search-in-rotated-sorted-array-2.py
 ├── DP/
 │   ├── 1D/
 │   │   ├── Frog Jump.py
@@ -43,13 +55,16 @@ codeforces/
 │       └── unbounded-knapsack.py
 ├── Graph/
 │   ├── Hard/
+│   │   ├── Shortpath_in_DAG.py
 │   │   ├── alien_dict.py
+│   │   ├── bellmanford.py
 │   │   ├── course_schedule.py
 │   │   ├── course_schedule_ii.py
 │   │   ├── cycle_un_directed_graph.py
 │   │   ├── detect_cycle_in_directed_graph.py
 │   │   ├── kahn_algorithm.py
-│   │   └── topological_sort.py
+│   │   ├── topological_sort.py
+│   │   └── word_ladder_1.py
 │   ├── Shortest-Path-Algo/
 │   │   ├── Cheapest_flight_with_k_stops.py
 │   │   ├── Shortest-distance-binary-maze.py
@@ -79,6 +94,10 @@ codeforces/
 │   ├── n_meeting_in_one_room.py
 │   ├── non-overlapping-intervals.py
 │   └── smallest_job_first.py
+├── Hashing/
+│   ├── Count-subarrays-with-given-sum.py
+│   ├── Hard - count subarray with given xor k.py
+│   └── longest-subarray-of-sum-k.py
 ├── Heaps/
 │   ├── max_heap.py
 │   ├── max_heap_heapify.py
@@ -87,7 +106,11 @@ codeforces/
 ├── Mock Exams/
 │   ├── Amazon/
 │   │   └── lexicographical_sum.py
-│   └── min_window_substring.py
+│   ├── Disaster_Relief_Logistics_System.py
+│   ├── Fraud_Detection_System.py
+│   ├── min_window_substring.py
+│   ├── portal_maze.py
+│   └── smart-load-balancer.py
 ├── Recursion/
 │   ├── combination_sum.py
 │   ├── combination_sum_II.py
