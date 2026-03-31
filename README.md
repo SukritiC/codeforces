@@ -4,6 +4,11 @@
 
 This repository serves as a personal collection of my solutions to various Data Structures and Algorithms (DSA) problems from platforms like Take U Forward, Codeforces, and other online judges. It's a space for practice, learning, and refining problem-solving skills in Python.
 
+<p align="center">
+  <img src="src/into_image.png" alt="Intro Image" width="500">
+  <img src="src/intro2.png" alt="Intro Image" width="500">
+</p>
+
 ## 📂 Repository Structure
 
 The repository is organized by topic to make it easy to find problems related to specific data structures or algorithms. Solutions for problems from specific platforms like Codeforces are kept in the root directory, while general practice problems are categorized into folders.
