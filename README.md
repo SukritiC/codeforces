@@ -22,6 +22,9 @@ codeforces/
 │   ├── minimum in the rotated sorted array.py
 │   ├── search-in-rotated-sorted-array-1.py
 │   └── search-in-rotated-sorted-array-2.py
+├── Binary Trees/  🔥New
+│   ├── idential_trees.py
+│
 ├── DP/
 │   ├── 1D/
 │   │   ├── Frog Jump.py
