@@ -23,7 +23,15 @@ codeforces/
 │   ├── search-in-rotated-sorted-array-1.py
 │   └── search-in-rotated-sorted-array-2.py
 ├── Binary Trees/  🔥New
+│   ├── Tree Traversal/
+│   │   ├── inorder.py
+│   │   ├── level_order.py
+│   │   ├── preorder.py
+│   │   ├── postorder.py
+│   │   └── 
 │   ├── idential_trees.py
+│   ├── max_depth.py
+│   ├── diameter_of_binary_tree.py
 │
 ├── DP/
 │   ├── 1D/
