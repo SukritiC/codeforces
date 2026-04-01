@@ -36,6 +36,7 @@ codeforces/
 │   │   └── 
 │   ├── idential_trees.py
 │   ├── max_depth.py
+│   ├── balanced_tree.py
 │   ├── diameter_of_binary_tree.py
 │
 ├── DP/
