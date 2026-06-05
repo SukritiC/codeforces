@@ -28,7 +28,7 @@ class Solution(object):
         return res
 
 
-# Optimal Solution
+# Optimal Solution with TC - O(N)
 
 class Solution(object):
     def productExceptSelf(self, nums):
@@ -57,4 +57,32 @@ class Solution(object):
                     res.append(0)
             else:
                 res.append(prod // nums[i])
+        return res
+
+# Optimal with SC O(1)
+
+class Solution(object):
+    def productExceptSelf(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        n = len(nums)
+        # Initialize the output array with 1s
+        res = [1] * n
+
+        # Step 1: Calculate Prefix Products
+        # Store the product of all elements to the left of i in res[i]
+        prefix = 1
+        for i in range(n):
+            res[i] = prefix
+            prefix *= nums[i]
+
+        # Step 2: Calculate Suffix Products on the fly
+        # Multiply res[i] by the product of all elements to the right of i
+        suffix = 1
+        for i in range(n - 1, -1, -1):
+            res[i] *= suffix
+            suffix *= nums[i]
+
         return res
