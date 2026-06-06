@@ -21,8 +21,8 @@ codeforces/
 │   ├── find-square-root-of-a-number.py
 │   ├── findout how many times the array is rotated.py
 │   ├── hard/
-│   │   ├── aggresive_cows.py
-│   │   └── book_allocation_problem.py
+│   │   ├── aggresive_cows.py 🔴
+│   │   └── book_allocation_problem.py 🔴
 │   ├── koko-eating-banana.py
 │   ├── minimum in the rotated sorted array.py
 │   ├── search-in-rotated-sorted-array-1.py
@@ -31,14 +31,12 @@ codeforces/
 │   ├── Tree Traversal/
 │   │   ├── inorder.py
 │   │   ├── level_order.py
-│   │   ├── preorder.py
 │   │   ├── postorder.py
-│   │   └── 
-│   ├── idential_trees.py
-│   ├── max_depth.py
+│   │   └── preorder.py
 │   ├── balanced_tree.py
 │   ├── diameter_of_binary_tree.py
-│
+│   ├── identical_trees.py
+│   └── max_depth.py
 ├── DP/
 │   ├── 1D/
 │   │   ├── Frog Jump.py
@@ -72,16 +70,16 @@ codeforces/
 │       └── unbounded-knapsack.py
 ├── Graph/
 │   ├── Hard/
-│   │   ├── Shortpath_in_DAG.py
-│   │   ├── alien_dict.py
-│   │   ├── bellmanford.py
-│   │   ├── course_schedule.py
-│   │   ├── course_schedule_ii.py
-│   │   ├── cycle_un_directed_graph.py
-│   │   ├── detect_cycle_in_directed_graph.py
-│   │   ├── kahn_algorithm.py
-│   │   ├── topological_sort.py
-│   │   └── word_ladder_1.py
+│   │   ├── Shortpath_in_DAG.py 🔴
+│   │   ├── alien_dict.py 🔴
+│   │   ├── bellmanford.py 🔴
+│   │   ├── course_schedule.py 🔴
+│   │   ├── course_schedule_ii.py 🔴
+│   │   ├── cycle_un_directed_graph.py 🔴
+│   │   ├── detect_cycle_in_directed_graph.py 🔴
+│   │   ├── kahn_algorithm.py 🔴
+│   │   ├── topological_sort.py 🔴
+│   │   └── word_ladder_1.py 🔴
 │   ├── Shortest-Path-Algo/
 │   │   ├── Cheapest_flight_with_k_stops.py
 │   │   ├── Shortest-distance-binary-maze.py
@@ -101,8 +99,8 @@ codeforces/
 │   └── surrounded_region.py
 ├── Greedy/
 │   ├── Hard/
-│   │   ├── candy.py
-│   │   └── valid_parenthesis_checker.py
+│   │   ├── candy.py 🔴
+│   │   └── valid_parenthesis_checker.py 🔴
 │   ├── assign-cookie.py
 │   ├── insert_interval.py
 │   ├── job_sequencing.py
@@ -113,7 +111,7 @@ codeforces/
 │   └── smallest_job_first.py
 ├── Hashing/
 │   ├── Count-subarrays-with-given-sum.py
-│   ├── Hard - count subarray with given xor k.py
+│   ├── Hard - count subarray with given xor k.py 🔴
 │   └── longest-subarray-of-sum-k.py
 ├── Heaps/
 │   ├── max_heap.py
@@ -144,16 +142,22 @@ codeforces/
 │   └── word_search.py
 ├── Team.py
 ├── card_point_sliding_window.py
+├── container_with_most_water.py 
 ├── convert_array_to_max_heap.py
 ├── domino-piling.py
 ├── down_with_brackets.py
+├── find_repeating_n_missing_numbers.py 🔴
+├── find_the_duplicate_number.py
 ├── helpful_math.py
 ├── interval-merge.py
 ├── left_and_down.py
 ├── network-configuration.py
 ├── next_round.py
+├── pascal_triangle.py
 ├── petaya-and-strings.py
 ├── prefix_min_and_suffix_max.py
+├── product_of_array_except_self.py
+├── set_matrix_zero.py
 ├── sliding-window/
 │   └── longest-repeating-character-replacement.py
 ├── watermelon.py
