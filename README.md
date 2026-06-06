@@ -144,6 +144,7 @@ codeforces/
 ├── card_point_sliding_window.py
 ├── container_with_most_water.py 
 ├── convert_array_to_max_heap.py
+├── count_inversion.py 🔴
 ├── domino-piling.py
 ├── down_with_brackets.py
 ├── find_repeating_n_missing_numbers.py 🔴
